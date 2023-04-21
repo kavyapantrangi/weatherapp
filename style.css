@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100px;
+    background-color: #352d78;
+
+}
+#search 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+#temp
+{
+    text-align: center;
+
+}
+#temp #temp-unit
+
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:moccasin;
+}
+#temp #temp-value
+
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    color:blue;
+}
+#climate
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0cap;
+    color:black;
+    text-align: center;
+}
+#location
+{
+    
+
+
+font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:darkblue;
+    text-align: center;
+
+}
+#temp-icon
+{
+    margin: 1rem;;
+    width: 50%;
+    height: auto;
+}
+main
+{
+    padding: 20px;
+    margin-top: 30px;
+    background-color:rgba(139, 209, 219, 0.616);
+    border-radius: 20px;
+    width:360px;
+    height:360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: crimson;
+}
+#search button
+{
+    color:cornflowerblue;
+    text-transform: uppercase;
+    text-decoration:none;
+    background-color:azure;
+    border-radius: 5px;
+    margin-left:5px;
+    padding:11px;
+    border:2px solid #943bab;
+    display:inline-block;
+    transition:all 0.4 ease 0s;
+}
+
+#search button:hover{
+    color:crimson;
+    background-color: coral;
+    border-color: black;
+    transition:all 0.4  ease 0s;
+
+}
+#search input
+{
+    width: 260px;
+    overflow: hidden;
+    font-size:20px;
+    margin:8px;
+    padding :8px;
+    border-bottom:3px solid #1fbcaf;
+    color:rgb(45, 43, 164);
+    outline:none;
+    background-color:azure;
+}
